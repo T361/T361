@@ -56,6 +56,7 @@ My technical approach prioritizes type safety, scalable database schemas, and se
 **Bachelor of Science in Software Engineering**
 *FAST-NUCES, Islamabad (2024 – Present)*
 
-* **Leadership Initiatives:** * Head of Software Engineering Society Workshops Team (FAST Data Science Society).
-    * Vice Head of Computer Science Event, NASCON.
+* **Leadership Initiatives:**
+  * Head of Software Engineering Society Workshops Team (FAST Data Science Society).
+  * Vice Head of Computer Science Event, NASCON.
 * **Relevant Coursework:** Data Structures, Object-Oriented Programming, Software Design and Architecture, Introduction to Software Engineering.
