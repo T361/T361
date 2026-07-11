@@ -2,6 +2,8 @@
 ### 🌐 Software Engineer | 🏗️ Full-Stack Systems Architect | 🧠 AI Integrations
 **Location:** Islamabad, Pakistan 🇵🇰 | **Education:** FAST-NUCES '28 | **GitHub:** [T361](https://github.com/T361)
 
+🔗 **[Resume Site](https://t361.github.io/)** · **[LinkedIn](https://www.linkedin.com/in/taimoor-shaukat-206a71323)** · **[Upwork](https://www.upwork.com/freelancers/~01a0ea55afcec09f6f)** · **[VEXA DEVS Portfolio](https://vexa-devs.vercel.app/)**
+
 ---
 
 ## 📑 Executive Table of Contents
