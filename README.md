@@ -74,10 +74,31 @@ Transitioning from deterministic full-stack engineering into the probabilistic r
 
 ## 💼 Professional Engineering Tenure & Enterprise Impact
 
+### 🧠 Prompt to Flow | Summer Intern — AI Product Developer & Engineer
+*July 2026 – Present · Islamabad · On-site*
+* **System Architecture:** Core member of an AI-native workflow automation platform, leading system design and architecture discussions to scale it from early MVP to production.
+* **Agentic AI & LLM Pipelines:** Designing complex system workflows and integrating agentic AI / LLM pipelines as a core product capability.
+* **Engineering Operations:** Overseeing Git repository maintenance, code review standards, deployment pipelines, and cross-functional collaboration across AI, backend, and frontend engineers.
+
+### ⚡ Energytech Cypher | Intern
+*June 2026 – Present · Houston, TX · Remote*
+* **Agentic AI & Automation:** Developing and testing Agentic AI projects to automate complex workflows within the climate-tech ecosystem.
+* **Systems Integration:** Integrating internal tools and systems to streamline technical operations, with an emphasis on documented, repeatable processes.
+
+### 🛠️ Pixoraft Solution | Back End Developer
+*April 2026 – Present · Birmingham, UK · Remote*
+* **Architecture & DB Design:** Engineered scalable software architecture and optimized relational database schemas for complex workflows.
+* **Edge & Real-Time Infrastructure:** Deployed Edge Functions via Render and Railway to cut latency/compute costs; integrated Supabase for real-time sync and secure auth.
+* **User Engagement:** Implemented Firebase Cloud Messaging (FCM) for cross-platform push notifications; ran bi-weekly client demos with a 100% satisfaction rate.
+
+### 🐋 Trilles AI | Full Stack Engineer
+*June 2026 – July 2026 · Islamabad · Remote*
+* **ChatWalrus Dashboard:** Spearheaded end-to-end development of the ChatWalrus admin dashboard — full frontend and backend architecture for an e-learning cohort analytics platform (course progress, assessments, milestones, alerts, leaderboards). See [`CHATWALRUS`](https://github.com/T361/CHATWALRUS).
+
 ### 🏢 Tashi Technologies Corp | MERN Stack Developer
 *January 2026 – February 2026*
 * **Modular Agency Development:** Architected, developed, and successfully deployed highly scalable MERN web applications across multiple concurrent enterprise client portfolios. Championed code reusability and modular component design.
-* **Corporate Digital Identity:** Spearheaded the end-to-end engineering of the official `TashiTech.ai` corporate platform, establishing a high-performance digital storefront representing the firm's elite AI and Blockchain capabilities.
+* **Corporate Digital Identity:** Spearheaded the end-to-end engineering of the official `TashiTech.ai` corporate platform, establishing a high-performance digital storefront representing the firm's elite AI and Blockchain capabilities. See [`tashitechwebsite`](https://github.com/T361/tashitechwebsite).
 * **AI Microservice Integration:** Designed, developed, and deployed a custom, FastAPI-powered chatbot ecosystem. Integrated this complex microservice directly into the primary application, managing high-velocity CI/CD pipelines to ensure zero-downtime updates.
 
 ### 🌐 RainMakerz | Software Engineer Intern
@@ -90,6 +111,14 @@ Transitioning from deterministic full-stack engineering into the probabilistic r
 * **Production-Grade Social Ecosystems:** Developed and successfully deployed a comprehensive enterprise social media platform utilizing Next.js (App Router), Express.js, and MongoDB within the Creative Solutions department.
 * **Strict Security Enforcement:** Engineered impenetrable authentication flows utilizing JWT for session persistence. Enforced strict Zod-based payload validation across all internal and external API endpoints.
 * **Automated DevOps Workflows:** Independently managed the complete deployment lifecycle. Configured automated CI/CD for the frontend via Vercel and the backend via Railway, expertly resolving complex Cross-Origin Resource Sharing (CORS) security policies.
+
+---
+
+## 📜 Certifications
+
+* **CS50's Introduction to Artificial Intelligence with Python** — Harvard University (Mar 2026). Built 12 AI systems from scratch: search (BFS/DFS/A*, Minimax + alpha-beta pruning), CSPs, propositional-logic agents, KNN, Q-Learning reinforcement learning, CNNs (TensorFlow/Keras), and NLP with BERT attention visualization.
+* **Generative AI for Everyone** — DeepLearning.AI, taught by Andrew Ng (Jun 2026). RAG, fine-tuning, and real-world LLM deployment strategy.
+* **RAG with Vertex AI** — PIEAS GDGOC Workshop (Google Developers Group).
 
 ---
 
@@ -115,6 +144,26 @@ Transitioning from deterministic full-stack engineering into the probabilistic r
 * **Decoupled System Design:** Engineered a production-ready internal social platform. Utilized Next.js for highly optimized server-side rendering, fully decoupled from a secure, stateless Express.js API backend.
 * **Relational NoSQL Design:** Modeled highly complex MongoDB schemas designed to strictly manage User-Post relationship constraints, infinitely nested comment hierarchies, and rigorous ownership/CRUD permission matrices.
 
+### 🚢 OceanRoute Nav | Maritime Navigation Optimizer
+* **Core Technologies:** `C++`, custom `Graph`/`Priority Queue`/`Queue` data structures (no STL), `SFML`
+* **Route Optimization:** Implements Dijkstra's and A* from scratch over a custom graph to compute minimum-cost and shortest-time shipping routes between international ports, including docking layovers and port charges.
+* See [`OceanRoute-Nav---Maritime-Navigation-Optimizer`](https://github.com/T361/OceanRoute-Nav---Maritime-Navigation-Optimizer).
+
+### 🕵️ IntelliCase | FBI Operations Management System
+* **Core Technologies:** `Java`
+* Case/operations management system modeling FBI-style investigative workflows.
+* See [`IntelliCase-FBI-Operations-Management-System`](https://github.com/T361/IntelliCase-FBI-Operations-Management-System).
+
+### 🌪️ Smart Disaster Response | Management Information System
+* **Core Technologies:** `TypeScript`
+* MIS for coordinating disaster response operations and resource allocation.
+* See [`Smart-Disaster-Response-MIS`](https://github.com/T361/Smart-Disaster-Response-MIS).
+
+### 🗺️ FAST Roadmap | Academic Navigation Platform
+* **Core Technologies:** `Next.js 14`, `React`, `TypeScript`, `Tailwind`, `MongoDB`
+* Curated, course-by-course roadmap for FAST-NU's CS/SE curriculum — verified learning resources per course, senior/community advice, and progress tracking, with a v2 "Zen Dark" rewrite.
+* See [`FAST-ROADMAP-v2`](https://github.com/T361/FAST-ROADMAP-v2) and [`ROADMAP-APP`](https://github.com/T361/ROADMAP-APP).
+
 ---
 
 ## 🎓 Academic Rigor & Leadership Initiatives
@@ -123,5 +172,9 @@ Transitioning from deterministic full-stack engineering into the probabilistic r
 *National University of Computer and Emerging Sciences (FAST-NUCES), Islamabad* | *2024 – Present*
 
 * **Core Computer Science Curricula:** Rigorous training in Data Structures, Object-Oriented Programming (OOP), Software Design Patterns, System Architecture, and Software Engineering Fundamentals.
-* **Community Leadership & Execution:** * 🛠️ **Head of Workshops Team:** FAST Data Science Society (Software Engineering Division).
-    * 🎤 **Vice Head of Computer Science:** NASCON Technical Festival.
+* **Community Leadership & Execution:**
+    * 🎤 **Vice Head — CS Events, NaSCon '26** (Feb 2026 – Jul 2026): Owned due diligence for the NaSCon Hackathon.
+    * 🎓 **Head of Event Coverage, SES – Software Engineering Society** (2025).
+    * 📣 **Vice Head of PR & Marketing, SES – Software Engineering Society** (2025).
+    * 🛠️ **Head of Workshops Team:** FAST Data Science Society (Software Engineering Division) — taught PF, OOP, and DSA to 200+ peers.
+* **Hackathons:** 🥈 Runner-up, "Prompt and Play — Code with Instinct" — a 2-hour build-a-working-AI-app sprint judged on speed and execution under a mystery prompt.
