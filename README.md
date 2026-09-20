@@ -67,7 +67,7 @@ Applied in production across every role below — not coursework, shipped system
 
 ### 🗄️ Databases
 * **PostgreSQL 17** (RLS, `SECURITY DEFINER` functions, immutable triggers)
-* **MongoDB & Mongoose**, **Supabase** (Postgres + Auth + RLS), **Pinecone** (vector DB)
+* **MongoDB & Mongoose**, **Redis**, **Supabase** (Postgres + Auth + RLS), **Pinecone** (vector DB)
 
 ### 🔐 Security
 * JWT access/refresh rotation, bcrypt hashing, Zod schema validation at every API boundary
@@ -75,6 +75,8 @@ Applied in production across every role below — not coursework, shipped system
 ### 🚢 DevOps & Cloud
 * **Git/GitHub:** branch strategy, code review standards, repo administration
 * **CI/CD:** Vercel, Railway, Render, Azure Serverless, GCP
+* **Infra:** Docker, Kubernetes, Nginx
+* **Observability:** OpenTelemetry, Grafana, Prometheus
 * **Testing:** Postman (API contracts), Selenium (E2E)
 * **AI-native tooling:** Claude Code, Cursor, Google Anti-Gravity, Kiro
 
