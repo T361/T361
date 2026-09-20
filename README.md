@@ -135,7 +135,7 @@ Applied in production across every role below — not coursework, shipped system
 * **Company OS** *(SynapseAI Solutions)* — Confidential internal operations platform.
 * **SLM Factory** *(SynapseAI Solutions)* — Confidential small-language-model fine-tuning and serving pipeline.
 * **[`frontend-project-planner-ai`](https://github.com/T361/frontend-project-planner-ai)** — AI tool turning a product brief into a drillable, editable frontend plan tree via lazy per-node Groq inference.
-* **[`CivicPulse-SCD`](https://github.com/T361/CivicPulse-SCD)** — Swappable-LLM complaint-triage architecture with a deterministic fallback ladder guaranteeing zero citizen-facing failures under provider outages.
+* **[`CivicPulse-SCD`](https://github.com/T361/CivicPulse-SCD)** — Swappable-LLM complaint-triage architecture with a deterministic fallback ladder guaranteeing zero citizen-facing failures under provider outages, instrumented with OpenTelemetry, Grafana, and Prometheus.
 * **[`langgraph-research-assistant-takehome`](https://github.com/T361/langgraph-research-assistant-takehome)** *(private)* — Multi-agent LangGraph research assistant with HITL interrupts and a SQLite checkpointer.
 
 ### ⚖️ Legalgram | Enterprise Legal SaaS Platform
@@ -157,6 +157,10 @@ DFS, BFS, Uniform-Cost Search, and A* with admissible heuristics on the UC Berke
 ### 🤖 AgentMom | Multi-Agent Communication Framework
 `Node.js` · `WebSockets` · `React`
 Real OS-process agents communicating over unicast/multicast/broadcast sockets, fronted by a REST + WebSocket control plane. See [`agent-mom-sqe`](https://github.com/T361/agent-mom-sqe).
+
+### 🌪️ Smart Disaster Response | Management Information System
+`Next.js` · `MS SQL Server` · `T-SQL`
+Raw T-SQL (no ORM) with triggers, views, and RBAC-enforcing stored procedures for incident reporting, resource allocation, and hospital coordination. See [`Smart-Disaster-Response-MIS`](https://github.com/T361/Smart-Disaster-Response-MIS).
 
 ### 🗺️ FAST Roadmap | Academic Navigation Platform
 `Next.js 14` · `React` · `TypeScript` · `Tailwind` · `MongoDB`
