@@ -62,7 +62,7 @@ Applied in production across every role below — not coursework, shipped system
 * **Tailwind CSS, Framer Motion:** Utility-first design systems, hardware-accelerated UI
 
 ### 📡 Backend & Distributed Systems
-* **Node.js & Express.js:** RESTful APIs, custom middleware pipelines
+* **Node.js, Express.js & NestJS:** RESTful APIs, custom middleware pipelines
 * **Python (FastAPI):** Low-latency microservices for AI inference and real-time data
 
 ### 🗄️ Databases
@@ -130,7 +130,8 @@ Applied in production across every role below — not coursework, shipped system
 ## 🚀 Featured Projects
 
 ### 🧠 AI / Agentic Engineering
-* **Company OS** & **SLM Factory** *(SynapseAI Solutions)* — Confidential production AI systems built at SynapseAI Solutions.
+* **Company OS** *(SynapseAI Solutions)* — Confidential internal operations platform.
+* **SLM Factory** *(SynapseAI Solutions)* — Confidential small-language-model fine-tuning and serving pipeline.
 * **[`frontend-project-planner-ai`](https://github.com/T361/frontend-project-planner-ai)** — AI tool turning a product brief into a drillable, editable frontend plan tree via lazy per-node Groq inference.
 * **[`CivicPulse-SCD`](https://github.com/T361/CivicPulse-SCD)** — Swappable-LLM complaint-triage architecture with a deterministic fallback ladder guaranteeing zero citizen-facing failures under provider outages.
 * **[`langgraph-research-assistant-takehome`](https://github.com/T361/langgraph-research-assistant-takehome)** *(private)* — Multi-agent LangGraph research assistant with HITL interrupts and a SQLite checkpointer.
@@ -178,5 +179,5 @@ Curated, course-by-course roadmap for FAST-NU's CS/SE curriculum. See [`FAST-ROA
 * **Community Leadership & Execution:**
     * 🎤 **Vice Head, App Dev — CS Events, NaSCon '26** (Jul 2026 – Present)
     * 🎓 **Head of Event Coverage, SES – Software Engineering Society** (2025 – 2026).
-    * 🛠️ **Member, FAST Data Science Society** — taught PF, OOP, and DSA to 200+ peers.
+    * 🛠️ **Member, FAST Data Science Society**
 * **Hackathons:** 🥈 Runner-up, "Prompt and Play — Code with Instinct" — a 2-hour build-a-working-AI-app sprint judged on speed and execution under a mystery prompt.
