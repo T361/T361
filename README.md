@@ -88,19 +88,19 @@ Applied in production across every role below — not coursework, shipped system
 * **Production-Ready AI Engineering:** Writing resilient, schema-constrained AI code paths to guarantee structured, verifiable outputs in a compliance-conscious environment.
 * **Secure Systems Architecture:** Integrating advanced prompt engineering and context-retrieval mechanisms into secure environments, maintaining strict data-protection and proprietary-compliance boundaries.
 
-### 🧠 Prompt to Flow (NIC Islamabad) | Full-Stack AI Intern
-*July 2026 – Present · Islamabad · On-site*
+### 🧠 Prompt to Flow (P2F), NIC Islamabad | AI & Cloud Intern
+*July 2026 – September 2026 · Islamabad · On-site*
 * **System Architecture:** Core member of an AI-native workflow automation platform, leading system design and architecture discussions to scale it from early MVP to production.
 * **Agentic AI & LLM Pipelines:** Designing complex system workflows and integrating agentic AI / LLM pipelines as a core product capability.
 * **Engineering Operations:** Owning Git repository maintenance, code review standards, and end-to-end deployment across GCP, Render, Railway, and Vercel.
 
 ### ⚡ Energytech Cypher | Agentic AI Intern
-*June 2026 – Present · Houston, TX · Remote*
+*June 2026 – August 2026 · Houston, TX · Remote*
 * **Agentic AI & Automation:** Developing and testing Agentic AI workflows, using LangSmith for pipeline observability, to automate complex processes within the climate-tech ecosystem.
 * **Systems Integration:** Integrating internal tools and systems to streamline technical operations.
 
 ### 🛠️ Pixoraft Solution | Back End Developer
-*April 2026 – Present · Birmingham, UK · Remote*
+*April 2026 – June 2026 · Birmingham, UK · Remote*
 * **Architecture & DB Design:** Co-architected the production backend for Star Sitters, enforcing a zero-trust onboarding funnel via `SECURITY DEFINER` PostgreSQL 17 functions, immutable triggers, and a comprehensive RLS policy matrix.
 * **Edge & Real-Time Infrastructure:** Deployed Edge Functions via Render and Railway to cut latency/compute costs; integrated Supabase for real-time sync and secure auth.
 * **User Engagement:** Implemented Firebase Cloud Messaging (FCM) for cross-platform push notifications; ran bi-weekly client demos with a 100% satisfaction rate.
@@ -130,6 +130,7 @@ Applied in production across every role below — not coursework, shipped system
 ## 🚀 Featured Projects
 
 ### 🧠 AI / Agentic Engineering
+* **Company OS** & **SLM Factory** *(SynapseAI Solutions)* — Confidential production AI systems; multi-agent orchestration with LangGraph.
 * **[`rag-pipeline-langchain`](https://github.com/T361/rag-pipeline-langchain)** — Document ingestion → embedding → vector store → semantic search pipeline (LangChain).
 * **[`mcp-server-client-demo`](https://github.com/T361/mcp-server-client-demo)** — Both sides of the Model Context Protocol: a FastMCP tool server and a streamable-HTTP client.
 * **[`ai-engineering-tutorials`](https://github.com/T361/ai-engineering-tutorials)** — Human-in-the-loop agent control, autonomous "deep agent" planning loops, API vs. interactive-UI agent surfaces.
@@ -179,8 +180,6 @@ Curated, course-by-course roadmap for FAST-NU's CS/SE curriculum. See [`FAST-ROA
 
 * **Community Leadership & Execution:**
     * 🎤 **Vice Head, App Dev — CS Events, NaSCon '26** (Jul 2026 – Present)
-    * 🎤 **Vice Head — CS Events, NaSCon '26** (Feb 2026 – Jul 2026): Owned due diligence for the NaSCon Hackathon.
     * 🎓 **Head of Event Coverage, SES – Software Engineering Society** (2025 – 2026).
-    * 🛠️ **Workshops Team, FAST Data Science Society** — taught PF, OOP, and DSA to 200+ peers.
-    * 📋 **Secretary Events, FAST Sustainable Development Society** (Aug 2026 – Present).
+    * 🛠️ **Member, FAST Data Science Society** — taught PF, OOP, and DSA to 200+ peers.
 * **Hackathons:** 🥈 Runner-up, "Prompt and Play — Code with Instinct" — a 2-hour build-a-working-AI-app sprint judged on speed and execution under a mystery prompt.
