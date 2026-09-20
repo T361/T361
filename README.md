@@ -130,13 +130,9 @@ Applied in production across every role below — not coursework, shipped system
 ## 🚀 Featured Projects
 
 ### 🧠 AI / Agentic Engineering
-* **Company OS** & **SLM Factory** *(SynapseAI Solutions)* — Confidential production AI systems; multi-agent orchestration with LangGraph.
-* **[`rag-pipeline-langchain`](https://github.com/T361/rag-pipeline-langchain)** — Document ingestion → embedding → vector store → semantic search pipeline (LangChain).
-* **[`mcp-server-client-demo`](https://github.com/T361/mcp-server-client-demo)** — Both sides of the Model Context Protocol: a FastMCP tool server and a streamable-HTTP client.
-* **[`ai-engineering-tutorials`](https://github.com/T361/ai-engineering-tutorials)** — Human-in-the-loop agent control, autonomous "deep agent" planning loops, API vs. interactive-UI agent surfaces.
+* **Company OS** & **SLM Factory** *(SynapseAI Solutions)* — Confidential production AI systems built at SynapseAI Solutions.
 * **[`frontend-project-planner-ai`](https://github.com/T361/frontend-project-planner-ai)** — AI tool turning a product brief into a drillable, editable frontend plan tree via lazy per-node Groq inference.
 * **[`CivicPulse-SCD`](https://github.com/T361/CivicPulse-SCD)** — Swappable-LLM complaint-triage architecture with a deterministic fallback ladder guaranteeing zero citizen-facing failures under provider outages.
-* **[`langgraph-research-assistant-takehome`](https://github.com/T361/langgraph-research-assistant-takehome)** *(private)* — Multi-agent LangGraph research assistant with HITL interrupts and a SQLite checkpointer.
 
 ### ⚖️ Legalgram | Enterprise Legal SaaS Platform
 `MERN` · `Python FastAPI` · `WebSockets` · `Automated PDF Engines`
