@@ -133,6 +133,7 @@ Applied in production across every role below — not coursework, shipped system
 * **Company OS** & **SLM Factory** *(SynapseAI Solutions)* — Confidential production AI systems built at SynapseAI Solutions.
 * **[`frontend-project-planner-ai`](https://github.com/T361/frontend-project-planner-ai)** — AI tool turning a product brief into a drillable, editable frontend plan tree via lazy per-node Groq inference.
 * **[`CivicPulse-SCD`](https://github.com/T361/CivicPulse-SCD)** — Swappable-LLM complaint-triage architecture with a deterministic fallback ladder guaranteeing zero citizen-facing failures under provider outages.
+* **[`langgraph-research-assistant-takehome`](https://github.com/T361/langgraph-research-assistant-takehome)** *(private)* — Multi-agent LangGraph research assistant with HITL interrupts and a SQLite checkpointer.
 
 ### ⚖️ Legalgram | Enterprise Legal SaaS Platform
 `MERN` · `Python FastAPI` · `WebSockets` · `Automated PDF Engines`
