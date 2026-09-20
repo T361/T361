@@ -1,5 +1,5 @@
 # ⚡ TAIMOOR SHAUKAT
-### 🌐 Software Engineer | 🏗️ Full-Stack Systems Architect | 🧠 AI Integrations
+### 🧠 Full-Stack AI Engineer | 🤖 Agentic Systems & LLM Product Development | 🏗️ MERN + Next.js
 **Location:** Islamabad, Pakistan 🇵🇰 | **Education:** FAST-NUCES '28 | **GitHub:** [T361](https://github.com/T361)
 
 🔗 **[Resume Site](https://t361.github.io/)** · **[LinkedIn](https://www.linkedin.com/in/taimoor-shaukat-206a71323)** · **[Upwork](https://www.upwork.com/freelancers/~01a0ea55afcec09f6f)** · **[VEXA DEVS Portfolio](https://vexa-devs.vercel.app/)**
@@ -7,164 +7,168 @@
 ---
 
 ## 📑 Executive Table of Contents
-1. [⚙️ Architectural Philosophy & Engineering Paradigm](#️-architectural-philosophy--engineering-paradigm)
-2. [🧰 Comprehensive Technical Stack & Infrastructure](#-comprehensive-technical-stack--infrastructure)
-3. [🧠 Artificial Intelligence & Machine Learning Journey](#-artificial-intelligence--machine-learning-journey)
+1. [⚙️ Engineering Philosophy](#️-engineering-philosophy)
+2. [🧠 AI & Agentic Systems Stack](#-ai--agentic-systems-stack)
+3. [🧰 Full-Stack & Infrastructure Stack](#-full-stack--infrastructure-stack)
 4. [💼 Professional Engineering Tenure & Enterprise Impact](#-professional-engineering-tenure--enterprise-impact)
-5. [🚀 Mission-Critical Systems & Scale Engineering](#-mission-critical-systems--scale-engineering)
-6. [🎓 Academic Rigor & Leadership Initiatives](#-academic-rigor--leadership-initiatives)
+5. [🚀 Featured Projects](#-featured-projects)
+6. [📜 Certifications](#-certifications)
+7. [🎓 Academic Rigor & Leadership Initiatives](#-academic-rigor--leadership-initiatives)
 
 ---
 
-## ⚙️ Architectural Philosophy & Engineering Paradigm
+## ⚙️ Engineering Philosophy
 
-As a rigorous Software Engineer specializing in modern JavaScript ecosystems and high-performance backend pipelines, I operate at the intersection of complex data modeling and seamless user experience. My engineering philosophy is built upon three core pillars:
+I build AI-native systems that survive contact with production: agents that reason
+reliably, pipelines that degrade gracefully instead of failing loudly, and product
+surfaces that make all of it usable. My engineering philosophy rests on three pillars:
 
-* **🛡️ Zero-Trust Security & Validation:** Implementing strict, stateless authentication mechanisms (JWT) and rigorous schema-level payload validation (Zod) at every API boundary.
-* **⚡ Asynchronous & Event-Driven Systems:** Leveraging WebSockets and advanced Node.js runtime capabilities to build real-time, zero-latency communication channels.
-* **🧩 Modular Microservices:** Decoupling monolithic architectures into highly specialized, independently deployable services (e.g., separating Next.js rendering engines from Python/FastAPI logic engines).
+* **🤖 Agentic Systems, Not Chat Wrappers:** Multi-agent orchestration (LangGraph),
+  stateful execution pipelines, and schema-constrained outputs — AI that's verifiable
+  and swappable, not a black box bolted onto a UI.
+* **🛡️ Zero-Trust Security & Validation:** Stateless authentication (JWT), rigorous
+  schema-level payload validation (Zod), and Postgres RLS/`SECURITY DEFINER` patterns
+  enforced at every boundary.
+* **🧩 Modular, Independently Deployable Services:** Decoupling AI inference layers
+  (FastAPI/Python) from rendering layers (Next.js) so either can evolve, fail, or
+  scale independently of the other.
 
 ---
 
-## 🧰 Comprehensive Technical Stack & Infrastructure
+## 🧠 AI & Agentic Systems Stack
 
-My technological arsenal is meticulously curated to handle full-lifecycle application development, from database schema conception to global edge network deployment.
+* **Orchestration:** LangChain, LangGraph (multi-agent workflows, stateful graphs,
+  human-in-the-loop interrupts), Model Context Protocol (MCP) — server & client
+* **Retrieval:** RAG pipelines, vector search (Pinecone), embedding & chunking strategies
+* **Reliability:** LLM evals, guardrails, LLM gateways, structured/schema-constrained
+  output, prompt optimization (DSPy)
+* **Inference:** Groq (low-latency), Azure Serverless / GCP-hosted inference endpoints
+* **Observability:** LangSmith pipeline tracing, custom token/cost/latency telemetry
+  systems with PII redaction
+
+Applied in production across every role below — not coursework, shipped systems.
+
+---
+
+## 🧰 Full-Stack & Infrastructure Stack
 
 ### 💻 Languages & Core Runtimes
-* **JavaScript (ECMAScript 6+) & TypeScript:** Strict typing, advanced asynchronous control flows, and functional programming paradigms.
-* **Python 3.x:** High-performance scripting, data manipulation, and backend API construction.
-* **C++ & Java:** Deep understanding of Object-Oriented Programming (OOP), explicit memory management, and foundational data structures.
-* **SQL:** Advanced query optimization and relational data extraction.
+* **JavaScript (ES6+) & TypeScript:** Strict typing, async control flow, functional patterns
+* **Python:** FastAPI backend construction, AI/ML pipeline scripting
+* **SQL / T-SQL / PL/pgSQL:** Query optimization, stored procedures, RBAC-enforcing schemas
 
-### 🖥️ Frontend Architecture & User Interfaces
-* **React.js & Next.js (App Router):** Mastery of Server-Side Rendering (SSR), Static Site Generation (SSG), and concurrent rendering models.
-* **Styling & Animation Engines:** Tailwind CSS for utility-first, atomic design systems; Framer Motion for complex, hardware-accelerated UI transitions.
+### 🖥️ Frontend
+* **React.js & Next.js (App Router):** SSR, SSG, concurrent rendering
+* **Tailwind CSS, Framer Motion:** Utility-first design systems, hardware-accelerated UI
 
-### 📡 Backend Engineering & Distributed Systems
-* **Node.js & Express.js:** Construction of robust, scalable RESTful APIs utilizing custom middleware pipelines and robust error handling.
-* **Python (FastAPI):** Engineering ultra-fast, concurrent microservices specifically tailored for machine learning inference and real-time data processing.
+### 📡 Backend & Distributed Systems
+* **Node.js & Express.js:** RESTful APIs, custom middleware pipelines
+* **Python (FastAPI):** Low-latency microservices for AI inference and real-time data
 
-### 🗄️ Database Architecture & Data Modeling
-* **MongoDB & Mongoose ODM:** Designing complex, relational-style NoSQL schemas with nested hierarchies, population pipelines, and optimized aggregation frameworks.
-* **PostgreSQL:** Structuring ACID-compliant relational databases for high-integrity transactional systems.
+### 🗄️ Databases
+* **PostgreSQL 17** (RLS, `SECURITY DEFINER` functions, immutable triggers)
+* **MongoDB & Mongoose**, **Supabase** (Postgres + Auth + RLS), **Pinecone** (vector DB)
 
-### 🔐 Security, Validation & Cryptography
-* **Authentication:** Implementation of robust JWT (JSON Web Token) ecosystems with distinct Access/Refresh token rotation strategies.
-* **Cryptography:** Secure credential hashing utilizing bcrypt algorithms.
-* **Payload Integrity:** Utilizing Zod for rigorous, type-safe schema validation to neutralize SQL injection and Cross-Site Scripting (XSS) vulnerabilities.
+### 🔐 Security
+* JWT access/refresh rotation, bcrypt hashing, Zod schema validation at every API boundary
 
-### 🚢 DevOps, Cloud Infrastructure & Version Control
-* **Version Control:** Advanced Git branch management, complex merge conflict resolution, and collaborative GitHub repository administration.
-* **CI/CD Pipelines:** Automated build and deployment pipelines leveraging Vercel (Edge Functions) and Railway.
-* **Cloud & Serverless:** Azure Serverless functions for high-availability, low-latency microservice execution.
-* **Testing & Quality Assurance:** Comprehensive API contract testing utilizing Postman; automated end-to-end browser testing with Selenium.
-* **Operating Systems:** Proficient in Linux (Ubuntu) terminal environments, Bash scripting, and secure shell (SSH) administration.
-
----
-
-## 🧠 Artificial Intelligence & Machine Learning Journey
-
-Transitioning from deterministic full-stack engineering into the probabilistic realm of Artificial Intelligence, I am actively engaging with foundational theories to build the next generation of autonomous web applications.
-
-* **🔬 CS50 Artificial Intelligence (Harvard University Curriculum):** Deep integration of theoretical computer science with modern AI application.
-* **🗺️ Search Algorithms:** Engineering intelligent agents utilizing Depth-First Search (DFS), Breadth-First Search (BFS), and optimal heuristic approaches (A* Search) for complex pathfinding.
-* **⚖️ Knowledge & Propositional Logic:** Designing inference engines that parse established knowledge bases to derive automated, logical conclusions.
-* **🎲 Uncertainty & Probability:** Modeling real-world unpredictability utilizing Bayesian Networks and Markov Decision Processes.
-* **🎯 Strategic Implementation:** My immediate architectural goal is to fuse these sophisticated logic engines seamlessly into my existing Next.js/FastAPI ecosystems.
+### 🚢 DevOps & Cloud
+* **Git/GitHub:** branch strategy, code review standards, repo administration
+* **CI/CD:** Vercel, Railway, Render, Azure Serverless, GCP
+* **Testing:** Postman (API contracts), Selenium (E2E)
+* **AI-native tooling:** Claude Code, Cursor, Google Anti-Gravity, Kiro
 
 ---
 
 ## 💼 Professional Engineering Tenure & Enterprise Impact
 
-### 🧠 Prompt to Flow | Summer Intern — AI Product Developer & Engineer
+### 🧠 SynapseAI Solutions | Full-Stack AI Engineer
+*July 2026 – Present · Remote, United States*
+* **Multi-Agent Orchestration:** Designing autonomous, agentic research and reasoning pipelines using LangGraph to handle complex, asynchronous workflows without human intervention.
+* **Production-Ready AI Engineering:** Writing resilient, schema-constrained AI code paths to guarantee structured, verifiable outputs in a compliance-conscious environment.
+* **Secure Systems Architecture:** Integrating advanced prompt engineering and context-retrieval mechanisms into secure environments, maintaining strict data-protection and proprietary-compliance boundaries.
+
+### 🧠 Prompt to Flow (NIC Islamabad) | Full-Stack AI Intern
 *July 2026 – Present · Islamabad · On-site*
 * **System Architecture:** Core member of an AI-native workflow automation platform, leading system design and architecture discussions to scale it from early MVP to production.
 * **Agentic AI & LLM Pipelines:** Designing complex system workflows and integrating agentic AI / LLM pipelines as a core product capability.
-* **Engineering Operations:** Overseeing Git repository maintenance, code review standards, deployment pipelines, and cross-functional collaboration across AI, backend, and frontend engineers.
+* **Engineering Operations:** Owning Git repository maintenance, code review standards, and end-to-end deployment across GCP, Render, Railway, and Vercel.
 
-### ⚡ Energytech Cypher | Intern
+### ⚡ Energytech Cypher | Agentic AI Intern
 *June 2026 – Present · Houston, TX · Remote*
-* **Agentic AI & Automation:** Developing and testing Agentic AI projects to automate complex workflows within the climate-tech ecosystem.
-* **Systems Integration:** Integrating internal tools and systems to streamline technical operations, with an emphasis on documented, repeatable processes.
+* **Agentic AI & Automation:** Developing and testing Agentic AI workflows, using LangSmith for pipeline observability, to automate complex processes within the climate-tech ecosystem.
+* **Systems Integration:** Integrating internal tools and systems to streamline technical operations.
 
 ### 🛠️ Pixoraft Solution | Back End Developer
 *April 2026 – Present · Birmingham, UK · Remote*
-* **Architecture & DB Design:** Engineered scalable software architecture and optimized relational database schemas for complex workflows.
+* **Architecture & DB Design:** Co-architected the production backend for Star Sitters, enforcing a zero-trust onboarding funnel via `SECURITY DEFINER` PostgreSQL 17 functions, immutable triggers, and a comprehensive RLS policy matrix.
 * **Edge & Real-Time Infrastructure:** Deployed Edge Functions via Render and Railway to cut latency/compute costs; integrated Supabase for real-time sync and secure auth.
 * **User Engagement:** Implemented Firebase Cloud Messaging (FCM) for cross-platform push notifications; ran bi-weekly client demos with a 100% satisfaction rate.
 
 ### 🐋 Trilles AI | Full Stack Engineer
 *June 2026 – July 2026 · Islamabad · Remote*
-* **ChatWalrus Dashboard:** Spearheaded end-to-end development of the ChatWalrus admin dashboard — full frontend and backend architecture for an e-learning cohort analytics platform (course progress, assessments, milestones, alerts, leaderboards). See [`CHATWALRUS`](https://github.com/T361/CHATWALRUS).
+* **ChatWalrus Dashboard:** Spearheaded end-to-end development of the ChatWalrus admin dashboard — full frontend and backend architecture for an e-learning cohort analytics platform. See [`CHATWALRUS`](https://github.com/T361/CHATWALRUS).
 
 ### 🏢 Tashi Technologies Corp | MERN Stack Developer
 *January 2026 – February 2026*
-* **Modular Agency Development:** Architected, developed, and successfully deployed highly scalable MERN web applications across multiple concurrent enterprise client portfolios. Championed code reusability and modular component design.
-* **Corporate Digital Identity:** Spearheaded the end-to-end engineering of the official `TashiTech.ai` corporate platform, establishing a high-performance digital storefront representing the firm's elite AI and Blockchain capabilities. See [`tashitechwebsite`](https://github.com/T361/tashitechwebsite).
-* **AI Microservice Integration:** Designed, developed, and deployed a custom, FastAPI-powered chatbot ecosystem. Integrated this complex microservice directly into the primary application, managing high-velocity CI/CD pipelines to ensure zero-downtime updates.
+* **Modular Agency Development:** Architected and deployed scalable MERN web applications across multiple concurrent enterprise client portfolios.
+* **Corporate Digital Identity:** Led end-to-end engineering of the official `TashiTech.ai` corporate platform. See [`tashitechwebsite`](https://github.com/T361/tashitechwebsite).
+* **AI Microservice Integration:** Designed and deployed a custom FastAPI-powered chatbot ecosystem with zero-downtime CI/CD.
 
 ### 🌐 RainMakerz | Software Engineer Intern
-*November 2025 – February 2026*
-* **Distributed SaaS Infrastructure:** Engineered the underlying infrastructure for a highly complex Software-as-a-Service platform. Successfully bridged a Next.js user interface with a robust .NET Core backend, further augmented by scalable Python FastAPI microservices.
-* **Azure Enterprise Monitoring:** Architected and deployed a mission-critical, secure 21-endpoint Monitoring and Audit system utilizing Azure Serverless architecture. This system rigorously tracked data flow and asynchronous interactions across the entire platform.
+*November 2025 – February 2026 · San Francisco, USA*
+* **19-Agent LLM Pipeline:** Engineered multi-agent LangGraph workflows with production-grade RAG/vector search (Pinecone) for an enterprise AI pitch-deck generator SaaS, bridging a Next.js frontend with .NET Core and Python FastAPI microservices.
+* **Prompt Optimization & Observability:** Implemented programmatic prompt optimization with DSPy; architected a 21-endpoint Monitoring & Audit system on Azure Serverless for real-time LLM token/cost/latency telemetry with automated PII redaction (GDPR/HIPAA-aware).
 
 ### 📡 Nayatel | Web Developer Intern
-*June 2025 – July 2025*
-* **Production-Grade Social Ecosystems:** Developed and successfully deployed a comprehensive enterprise social media platform utilizing Next.js (App Router), Express.js, and MongoDB within the Creative Solutions department.
-* **Strict Security Enforcement:** Engineered impenetrable authentication flows utilizing JWT for session persistence. Enforced strict Zod-based payload validation across all internal and external API endpoints.
-* **Automated DevOps Workflows:** Independently managed the complete deployment lifecycle. Configured automated CI/CD for the frontend via Vercel and the backend via Railway, expertly resolving complex Cross-Origin Resource Sharing (CORS) security policies.
+*June 2025 – July 2025 · Islamabad*
+* **Production-Grade Social Ecosystems:** Built and deployed an enterprise social media platform (Next.js App Router, Express.js, MongoDB) within the Creative Solutions department.
+* **Security & DevOps:** JWT session auth, Zod payload validation, and full Vercel/Railway CI/CD with CORS resolution.
+
+---
+
+## 🚀 Featured Projects
+
+### 🧠 AI / Agentic Engineering
+* **[`rag-pipeline-langchain`](https://github.com/T361/rag-pipeline-langchain)** — Document ingestion → embedding → vector store → semantic search pipeline (LangChain).
+* **[`mcp-server-client-demo`](https://github.com/T361/mcp-server-client-demo)** — Both sides of the Model Context Protocol: a FastMCP tool server and a streamable-HTTP client.
+* **[`ai-engineering-tutorials`](https://github.com/T361/ai-engineering-tutorials)** — Human-in-the-loop agent control, autonomous "deep agent" planning loops, API vs. interactive-UI agent surfaces.
+* **[`frontend-project-planner-ai`](https://github.com/T361/frontend-project-planner-ai)** — AI tool turning a product brief into a drillable, editable frontend plan tree via lazy per-node Groq inference.
+* **[`CivicPulse-SCD`](https://github.com/T361/CivicPulse-SCD)** — Swappable-LLM complaint-triage architecture with a deterministic fallback ladder guaranteeing zero citizen-facing failures under provider outages.
+* **[`langgraph-research-assistant-takehome`](https://github.com/T361/langgraph-research-assistant-takehome)** *(private)* — Multi-agent LangGraph research assistant with HITL interrupts and a SQLite checkpointer.
+
+### ⚖️ Legalgram | Enterprise Legal SaaS Platform
+`MERN` · `Python FastAPI` · `WebSockets` · `Automated PDF Engines`
+Solely architected a massive-scale production codebase for a high-value client, including a real-time FastAPI/WebSocket legal-inference microservice and an automated PDF report-generation engine. See [`Legalgram`](https://github.com/T361/Legalgram).
+
+### 🏟️ Playistan | Distributed Sports Booking Engine
+`React 19` · `Node.js` · `Express 5` · `Socket.IO` · `Cloudinary API`
+Lead full-stack developer on a high-concurrency booking engine connecting users to sports facilities across four metro regions, with live Socket.IO slot-availability broadcasting to prevent booking conflicts. See [`Playistan-ISE`](https://github.com/T361/Playistan-ISE) and [`frontend`](https://github.com/T361/frontend).
+
+### 👶 Star Sitters | Childcare Booking Platform Backend
+`PostgreSQL 17` · `Supabase` · `Deno Edge` · `PL/pgSQL`
+Co-architected the production backend enforcing a zero-trust onboarding funnel via `SECURITY DEFINER` functions and a comprehensive RLS policy matrix. See [`StarSitters`](https://github.com/T361/StarSitters).
+
+### 🐍 Pacman Search | Classical AI Search Algorithms
+`Python`
+DFS, BFS, Uniform-Cost Search, and A* with admissible heuristics on the UC Berkeley Pacman AI framework. See [`pacman-search`](https://github.com/T361/pacman-search).
+
+### 🤖 AgentMom | Multi-Agent Communication Framework
+`Node.js` · `WebSockets` · `React`
+Real OS-process agents communicating over unicast/multicast/broadcast sockets, fronted by a REST + WebSocket control plane. See [`agent-mom-sqe`](https://github.com/T361/agent-mom-sqe).
+
+### 🗺️ FAST Roadmap | Academic Navigation Platform
+`Next.js 14` · `React` · `TypeScript` · `Tailwind` · `MongoDB`
+Curated, course-by-course roadmap for FAST-NU's CS/SE curriculum. See [`FAST-ROADMAP-v2`](https://github.com/T361/FAST-ROADMAP-v2) and [`ROADMAP-APP`](https://github.com/T361/ROADMAP-APP).
 
 ---
 
 ## 📜 Certifications
 
+* **Claude Code in Action** — Anthropic (Sep 2026)
+* **Generative AI for Everyone** — DeepLearning.AI, taught by Andrew Ng (Jun 2026). RAG, fine-tuning, RLHF, and real-world LLM deployment strategy.
 * **CS50's Introduction to Artificial Intelligence with Python** — Harvard University (Mar 2026). Built 12 AI systems from scratch: search (BFS/DFS/A*, Minimax + alpha-beta pruning), CSPs, propositional-logic agents, KNN, Q-Learning reinforcement learning, CNNs (TensorFlow/Keras), and NLP with BERT attention visualization.
-* **Generative AI for Everyone** — DeepLearning.AI, taught by Andrew Ng (Jun 2026). RAG, fine-tuning, and real-world LLM deployment strategy.
-* **RAG with Vertex AI** — PIEAS GDGOC Workshop (Google Developers Group).
-
----
-
-## 🚀 Mission-Critical Systems & Scale Engineering
-
-### ⚖️ Legalgram | Enterprise Legal SaaS Platform
-* **Role:** Lead Full Stack Engineer
-* **Core Technologies:** `MERN Stack`, `Python FastAPI`, `WebSockets`, `Automated PDF Engines`
-* **Architectural Scope:** Solely managed and engineered a massive-scale production codebase, navigating extreme complexity across a distributed microservices environment for a high-value client.
-* **Real-Time Inference Layer:** Built a dedicated, ultra-low-latency FastAPI microservice utilizing WebSockets to handle real-time legal data processing, delivering instant, contextually aware responses.
-* **Feature Ecosystem:** Constructed a comprehensive "Super App" architecture, featuring a secure social Community Hub for legal professionals and an advanced automated PDF Generation Engine capable of compiling complex data arrays into formatted, downloadable analytics reports.
-
-### 🏟️ Playistan | Distributed Sports Booking Engine
-* **Role:** Lead Full Stack Developer
-* **Core Technologies:** `React 19`, `Node.js`, `Express 5`, `Socket.IO`, `Cloudinary API`
-* **Centralized Booking Logic:** Architected a high-concurrency booking engine connecting users to sports facilities across four major metropolitan geographic regions.
-* **Live Socket Architecture:** Implemented advanced Socket.IO streams to power a live, rich-media community chat and instant slot-availability broadcasts, effectively neutralizing race conditions and booking conflicts.
-* **Administrative Verification Portal:** Developed a secure management portal empowering venue owners to manage high-volume queues and programmatically verify payment receipts via Cloudinary image analysis pipelines.
-
-### 💬 Enterprise Social Platform | Internal Nayatel Initiative
-* **Role:** Full Stack Systems Engineer
-* **Core Technologies:** `Next.js App Router`, `Express.js`, `MongoDB`, `Zod`, `bcrypt`
-* **Decoupled System Design:** Engineered a production-ready internal social platform. Utilized Next.js for highly optimized server-side rendering, fully decoupled from a secure, stateless Express.js API backend.
-* **Relational NoSQL Design:** Modeled highly complex MongoDB schemas designed to strictly manage User-Post relationship constraints, infinitely nested comment hierarchies, and rigorous ownership/CRUD permission matrices.
-
-### 🚢 OceanRoute Nav | Maritime Navigation Optimizer
-* **Core Technologies:** `C++`, custom `Graph`/`Priority Queue`/`Queue` data structures (no STL), `SFML`
-* **Route Optimization:** Implements Dijkstra's and A* from scratch over a custom graph to compute minimum-cost and shortest-time shipping routes between international ports, including docking layovers and port charges.
-* See [`OceanRoute-Nav---Maritime-Navigation-Optimizer`](https://github.com/T361/OceanRoute-Nav---Maritime-Navigation-Optimizer).
-
-### 🕵️ IntelliCase | FBI Operations Management System
-* **Core Technologies:** `Java`
-* Case/operations management system modeling FBI-style investigative workflows.
-* See [`IntelliCase-FBI-Operations-Management-System`](https://github.com/T361/IntelliCase-FBI-Operations-Management-System).
-
-### 🌪️ Smart Disaster Response | Management Information System
-* **Core Technologies:** `TypeScript`
-* MIS for coordinating disaster response operations and resource allocation.
-* See [`Smart-Disaster-Response-MIS`](https://github.com/T361/Smart-Disaster-Response-MIS).
-
-### 🗺️ FAST Roadmap | Academic Navigation Platform
-* **Core Technologies:** `Next.js 14`, `React`, `TypeScript`, `Tailwind`, `MongoDB`
-* Curated, course-by-course roadmap for FAST-NU's CS/SE curriculum — verified learning resources per course, senior/community advice, and progress tracking, with a v2 "Zen Dark" rewrite.
-* See [`FAST-ROADMAP-v2`](https://github.com/T361/FAST-ROADMAP-v2) and [`ROADMAP-APP`](https://github.com/T361/ROADMAP-APP).
+* **RAG with Vertex AI** — PIEAS GDGoC Workshop (Google Developers Group), Jan 2026.
 
 ---
 
@@ -173,10 +177,10 @@ Transitioning from deterministic full-stack engineering into the probabilistic r
 **Bachelor of Science in Software Engineering**
 *National University of Computer and Emerging Sciences (FAST-NUCES), Islamabad* | *2024 – Present*
 
-* **Core Computer Science Curricula:** Rigorous training in Data Structures, Object-Oriented Programming (OOP), Software Design Patterns, System Architecture, and Software Engineering Fundamentals.
 * **Community Leadership & Execution:**
+    * 🎤 **Vice Head, App Dev — CS Events, NaSCon '26** (Jul 2026 – Present)
     * 🎤 **Vice Head — CS Events, NaSCon '26** (Feb 2026 – Jul 2026): Owned due diligence for the NaSCon Hackathon.
-    * 🎓 **Head of Event Coverage, SES – Software Engineering Society** (2025).
-    * 📣 **Vice Head of PR & Marketing, SES – Software Engineering Society** (2025).
-    * 🛠️ **Head of Workshops Team:** FAST Data Science Society (Software Engineering Division) — taught PF, OOP, and DSA to 200+ peers.
+    * 🎓 **Head of Event Coverage, SES – Software Engineering Society** (2025 – 2026).
+    * 🛠️ **Workshops Team, FAST Data Science Society** — taught PF, OOP, and DSA to 200+ peers.
+    * 📋 **Secretary Events, FAST Sustainable Development Society** (Aug 2026 – Present).
 * **Hackathons:** 🥈 Runner-up, "Prompt and Play — Code with Instinct" — a 2-hour build-a-working-AI-app sprint judged on speed and execution under a mystery prompt.
