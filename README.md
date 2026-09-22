@@ -166,6 +166,10 @@ Raw T-SQL (no ORM) with triggers, views, and RBAC-enforcing stored procedures fo
 `Next.js 14` · `React` · `TypeScript` · `Tailwind` · `MongoDB`
 Curated, course-by-course roadmap for FAST-NU's CS/SE curriculum. See [`FAST-ROADMAP-v2`](https://github.com/T361/FAST-ROADMAP-v2) and [`ROADMAP-APP`](https://github.com/T361/ROADMAP-APP).
 
+### 🎨 WISE Lab | Interactive Flagship Prototype
+`React` · `Vite` · `Supabase` · `Three.js` · `Tailwind`
+High-fidelity front-end prototype for WISE Lab (Women Innovation & Startup Empowerment Lab) — a national platform for women-led startups and MSMEs, featuring an interactive 3D hero that morphs between three states. See [`WISE-LAB`](https://github.com/T361/WISE-LAB).
+
 ---
 
 ## 📜 Certifications
