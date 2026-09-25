@@ -85,7 +85,7 @@ Applied in production across every role below — not coursework, shipped system
 ## 💼 Professional Engineering Tenure & Enterprise Impact
 
 ### 🧠 SynapseAI Solutions | Full-Stack AI Engineer
-*July 2026 – Present · Remote, United States*
+*July 2026 – Present · Remote, Texas, USA*
 * **Multi-Agent Orchestration:** Designing autonomous, agentic research and reasoning pipelines using LangGraph to handle complex, asynchronous workflows without human intervention.
 * **Production-Ready AI Engineering:** Writing resilient, schema-constrained AI code paths to guarantee structured, verifiable outputs in a compliance-conscious environment.
 * **Secure Systems Architecture:** Integrating advanced prompt engineering and context-retrieval mechanisms into secure environments, maintaining strict data-protection and proprietary-compliance boundaries.
